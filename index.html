@@ -1,55 +1,48 @@
 <!DOCTYPE html>
-<html lang="ru">
-  <style>
+<html>
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/98.css">
+<head>
+<title>Mnk ab</title>
+<style>
   body {
   background-image: url(pics/background.png);
     background-color: #000000;
-    font-color: #ffffff;
     display: flex;
     justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
   }
 </style>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Крутая Страница эвер</title>
-    <link rel="stylesheet" href="./styles/style.css">
-
-    <meta property="og:title" content="Заголовок страницы в OG">
-    <meta property="og:description" content="Описание страницы в OG">
-  </head>
-  <body>
-    <header>
-      <h1>Личный сайт</h1>
-      <p>Который сделан на основе готового шаблона из интернета потому что мне лень</p>
-      <nav>
-        <ul>
-          <li><a href="index.html">Эта страница (редирект, вау, сюда же)</a></li>
-          <li><a href="index.html">С цветами шрифтов норм если включен Dark Reader (и это такая фишка (я хз как чинить пока что))</a></li>
-          <li><a href="catalog.html">Другая страница</a></li>
-          <li><a href="catalog.html">Яхз, мне лень сайт пилить, надеюсь появится интузиазм и время доделать (I want to believe) </a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <article>
-        <section>
-          <h2>Первая секция</h2>
-          <p>Она обо мне</p>
-          <p>Крута</p></p>
-        </section>
-        <section>
-          <h2>Вторая секция</h2>
-          <p>Она тоже обо мне прикинь пися попа</p>
-        </section>
-        <section>
-          <h2>И третья</h2>
-          <p>Вы уже должны были начать догадываться что ялох </p>
-        </section>
-      </article>
-    </main>
-    <footer>
-      <p>короче лох какой то с гитхабом, потом как нибуть сделаю сайт под веб 1.0</p>
-    </footer>
-  </body>
+</head>
+<body>
+<div class="window" style="width: 500px">
+  <div class="title-bar">
+    <div class="title-bar-text">About me</div>
+  </div>
+  <div class="window-body">
+    <div class="window-body">
+      <menu role="tablist">
+        <li role="tab" aria-selected="true"><a href="index.html">About me</a></li>
+	<li role="tab"><a href="hardware.html">Main hardware</a></li>
+        <li role="tab"><a href="about.html">About site</a></li>
+      </menu>
+      <div class="window" role="tabpanel">
+        <div class="window-body">
+          <p> Just an internet user</p>
+          <p> Love tech (Linux, ThinkPad's, custom android rom's) and music (breakcore, metal, jumpstyle, horrorcore) </p>
+          <p> Know Russian (main), English, some Belarusian and can sometimes understand Ukraine </p>
+	  <p> Internet know me as  Minnekaan, Nowhere_69, Minnekään<p/>
+	  <p> Sometimes I so wery stupid  (its always, but people dont know that, hmm, no, Im always useless)
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="status-bar">
+    <p class="status-bar-field">Version 0.2 Beta</p>
+  </div>
+</div>
+</body>
 </html>
